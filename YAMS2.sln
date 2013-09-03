@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YAMS-Service", "YAMS-Service\YAMS-Service.csproj", "{1FA2EEED-B608-42FA-AFE9-86F06903469A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YAMS-Library", "YAMS-Library\YAMS-Library.csproj", "{C6EB81E6-6147-4E5E-88DD-78A0ABE14404}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YAMS-Desktop", "YAMS-Desktop\YAMS-Desktop.csproj", "{CBFEF3A3-6194-49A1-8242-0573878B3865}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "YAMS-Web", "http://localhost:10863", "{292E8150-A300-408B-ACD0-55277DAA1397}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_10863"
+		Debug.AspNetCompiler.PhysicalPath = "YAMS-Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_10863\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_10863"
+		Release.AspNetCompiler.PhysicalPath = "YAMS-Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_10863\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "YAMS-Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FA2EEED-B608-42FA-AFE9-86F06903469A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA2EEED-B608-42FA-AFE9-86F06903469A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA2EEED-B608-42FA-AFE9-86F06903469A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA2EEED-B608-42FA-AFE9-86F06903469A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6EB81E6-6147-4E5E-88DD-78A0ABE14404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6EB81E6-6147-4E5E-88DD-78A0ABE14404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6EB81E6-6147-4E5E-88DD-78A0ABE14404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6EB81E6-6147-4E5E-88DD-78A0ABE14404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBFEF3A3-6194-49A1-8242-0573878B3865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBFEF3A3-6194-49A1-8242-0573878B3865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBFEF3A3-6194-49A1-8242-0573878B3865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBFEF3A3-6194-49A1-8242-0573878B3865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{292E8150-A300-408B-ACD0-55277DAA1397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{292E8150-A300-408B-ACD0-55277DAA1397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{292E8150-A300-408B-ACD0-55277DAA1397}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{292E8150-A300-408B-ACD0-55277DAA1397}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
